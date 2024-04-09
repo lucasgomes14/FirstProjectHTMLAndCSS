@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../image/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333; /*x, y, blur, color*/
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.content-section h2 {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.content-footer {
+    height: 80px;
+    background-color: #6b6c68;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: 14px;
+    line-height: 80px;
+}
