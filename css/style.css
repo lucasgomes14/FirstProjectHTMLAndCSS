@@ -9,6 +9,7 @@ body {
     background-position: right center;
     background-size: cover;
     height: 500px;
+    border-top: 1px solid transparent;
 }
 
 .hero-content {
@@ -23,6 +24,40 @@ body {
     text-shadow: 3px 3px 2px #333; /*x, y, blur, color*/
 }
 
+.hero-content p {
+    background-color: rgba(0, 0, 0, .7);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;    
+}
+
+.content-hero-ul {
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.content-hero-li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.content-hero-nav a {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.content-hero-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 main {
     width: 80%;
     margin: auto;
@@ -32,6 +67,31 @@ main {
     background-color: white;
     padding: 10px;
     margin-top: 15px;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .content-section h2 {
